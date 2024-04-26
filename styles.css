@@ -10,13 +10,31 @@ body, html {
     /* background-color: #f0f0f0; Set hero section background color */
     overflow: hidden;
 }
+.shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
 
+p{
+    font-weight: bold;
+    font-size:20px;
+    color:green;
+    
+}
 .content,.middle{
     position: relative;
     z-index: 1;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
+
+}
+.contents{
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: -20px;
 }
 
 .particles-container {
@@ -131,8 +149,8 @@ body, html {
   border: 3px solid purple;
 }
 .photo{
-    margin-top:150px;
-    margin-left: 18%;
+    margin-top:80px;
+    margin-left: 4%;
     border-radius: 40%;
 }
 blockquote {
@@ -191,10 +209,45 @@ blockquote::after {
     }
 }
 .thoughts{
-    margin-left:25%;
+    margin-left:35%;
 }
 .h2{
     margin-top:50px;
     text-align: center;
     color:green;
+}
+
+@media (max-width:488px){
+    .rotate-img{
+        position: fixed;
+        left:0%;
+        top:0%;
+        height: 200px;
+        /* width: */
+    }
+    .rotate-imgs{
+        transform: rotate(90deg);
+        position: fixed;
+        right:-10%;
+        top:4.1%;
+        height:230px;
+    }
+    .content{
+        text-align:center;
+        margin-top:90px;
+        width:auto;
+        /* margin-left:px; */
+    }
+    .shadow{
+        object-fit: cover;
+        height:300px;
+        width:550px;
+    }
+    .first,.second,.third,.fourth{
+        height:400px;
+    }
+    .grid{
+        margin-left:-50%;
+        gap:120px;
+    }
 }
