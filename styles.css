@@ -51,6 +51,7 @@ p{
     background-size: cover;
     color:red;
     animation: animateParticle linear infinite;
+    z-index:3;
 }
 .location{
     font-size:20px;
@@ -216,7 +217,7 @@ blockquote::after {
 a{
     text-decoration:none;
 }
-@media (max-width:401px){
+@media (max-width:351px){
     .body{
         width:100vh;
     }
@@ -232,13 +233,15 @@ a{
         left:0%;
         top:0%;
         height: 200px;
+        /* display: none; */
     }
     .rotate-imgs{
         transform: rotate(90deg);
         position: fixed;
-        right:-10%;
-        top:4.1%;
+        right:-1%;
+        top:2.5%;
         height:230px;
+        /* display: none; */
     }
     .content{
         text-align:center;
@@ -246,18 +249,25 @@ a{
         width:100vh;
     }
     .sh{
-        margin-left:-220px;
+        position:absolute;
+        top:10%;
+        left:10%;
+        /* z-index:3; */
+        /* margin-top:500px; */
     }
     .shadow{
-        object-fit:fill;
-        height:300px;
-        width: 400px;
-        margin-left:-180px;
-        margin-top:-50px;
+        object-fit:contain;
+        height:450px;
+        width: 350px;
+        margin-left:-300px;
+        margin-top:50px;
         box-shadow:none;
     }
     .para{
-        margin-left:-280px;
+        position:absolute;
+        top:80%;
+        left:1.2%;
+        /* margin-left:-200px; */
     }
     .first,.second,.third,.fourth{
         height:400px;
@@ -274,7 +284,7 @@ a{
         margin-left:-35%;
     }
     .body2{
-        margin-left:100px;
+        margin-left:150px;
     }
 }
 @media (min-width:401px) and (max-width:428px){
