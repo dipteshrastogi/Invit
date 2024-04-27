@@ -251,7 +251,7 @@ a{
     .sh{
         position:absolute;
         top:10%;
-        left:10%;
+        left:19%;
         /* z-index:3; */
         /* margin-top:500px; */
     }
@@ -266,7 +266,7 @@ a{
     .para{
         position:absolute;
         top:80%;
-        left:1.2%;
+        left:2.9%;
         /* margin-left:-200px; */
     }
     .first,.second,.third,.fourth{
