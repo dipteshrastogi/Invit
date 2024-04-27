@@ -217,7 +217,7 @@ blockquote::after {
 a{
     text-decoration:none;
 }
-@media (max-width:351px){
+@media (max-width:381px){
     .body{
         width:100vh;
     }
