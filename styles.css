@@ -218,9 +218,6 @@ a{
     text-decoration:none;
 }
 @media (max-width:401px){
-    .h2{
-        
-    }
     .body{
         width:100vh;
     }
@@ -241,7 +238,7 @@ a{
     .rotate-imgs{
         transform: rotate(90deg);
         position: fixed;
-        right:-1%;
+        right:-8.5%;
         top:2.5%;
         height:230px;
         /* display: none; */
