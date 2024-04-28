@@ -1,13 +1,14 @@
-body, html {
+body{
     margin: 0;
     padding: 0;
-    height: 100%;
+    width:100%;
 }
 
 .hero {
     position: relative;
     height: 100vh;
     overflow: hidden;
+    width:100vh;
 }
 .shadow {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -78,6 +79,7 @@ p{
 .rotate-imgs{
     transform: rotate(90deg);
     position: fixed;
+    z-index:3;
     right:-5%;
     top:10%;
 }   
@@ -250,23 +252,23 @@ a{
     }
     .sh{
         position:absolute;
-        top:10%;
-        left:19%;
+        top:25%;
+        left:29%;
         /* z-index:3; */
         /* margin-top:500px; */
     }
     .shadow{
         object-fit:contain;
         height:450px;
-        width: 350px;
-        margin-left:-300px;
+        width: 450px;
+        margin-left:-100px;
         margin-top:50px;
         box-shadow:none;
     }
     .para{
         position:absolute;
         top:80%;
-        left:2.9%;
+        left:15.9%;
         /* margin-left:-200px; */
     }
     .first,.second,.third,.fourth{
