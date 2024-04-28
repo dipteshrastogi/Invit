@@ -253,7 +253,7 @@ a{
     .sh{
         position:absolute;
         top:25%;
-        left:29%;
+        left:32%;
         /* z-index:3; */
         /* margin-top:500px; */
     }
@@ -286,10 +286,10 @@ a{
 
     }
     .grid{
-        margin-left:-35%;
+        margin-left:-30%;
     }
     .body2{
-        margin-left:150px;
+        margin-left:165px;
     }
     blockquote{
         font-size:19px;
