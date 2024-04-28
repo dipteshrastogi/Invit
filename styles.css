@@ -268,8 +268,11 @@ a{
     .para{
         position:absolute;
         top:80%;
-        left:15.9%;
+        left:20%;
         /* margin-left:-200px; */
+    }
+    .heros{
+        margin-left:15%;
     }
     .first,.second,.third,.fourth{
         height:400px;
