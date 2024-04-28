@@ -297,7 +297,7 @@ a{
     }
     .h2{    
         width:100vh;
-        margin-left:4px;
+        margin-left:0.5px;
     }
 }
 @media (min-width:401px) and (max-width:428px){
